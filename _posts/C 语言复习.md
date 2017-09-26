@@ -52,3 +52,8 @@ typedef : 指定新名称,
 
 				
 > Written with [StackEdit](https://stackedit.io/).
+
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
