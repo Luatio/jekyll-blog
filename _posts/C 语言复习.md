@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "c语言复习!"
+date:   2017-09-26 18:31:13 +0000
+categories: c
+---
+
 c语言复习
 ========
 编译器  产生 .obj文件  eg: gcc radius.c
