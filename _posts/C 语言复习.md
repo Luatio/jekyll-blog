@@ -1,0 +1,47 @@
+c语言复习
+========
+编译器  产生 .obj文件  eg: gcc radius.c
+链接器   产生 .exe可执行文件
+
+函数原型： int product(int x, int y);
+	位于函数使用之前，不同于函数定义。
+
+scanf()语句: 读取键盘输入  scanf("%d", &val1);
+
+注释： /*    */  或 //
+代码块： { }
+计算机运行时，使用RAM存储信息，它是易失的，可擦除的。
+
+char  ： 1字节；
+int ： 4字节
+float :  4字节
+double :   8 字节
+
+sizeof(char);
+sizeof(float);
+
+typedef : 指定新名称,
+>typedef int integer;
+>integer count;
+
+常用于聚集数据类型；
+
+禁止变量初始化为范围之外的值: 
+>int weight = 10000;
+>unsigned int value = -2500;
+
+字面常量：在源代码中直接输入的值，
+>int count = 20;
+
+不带小数点的常量被编译器表示为整数，首位不为0，十进制；
+首位为0，八进制；首位为0x 或 0X 十六进制；
+
+符号常量：
+> /#define PI 3.14159   无分号；
+> const int count = 100;
+> 俩种符号常量声明方式差别涉及指针和作用域；
+>    convert 转换
+ 
+
+				
+> Written with [StackEdit](https://stackedit.io/).
